@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta name='description' content='A Twitter Bootstrap 3.0 component template generator.'>
+	<meta name='author' content='Hanni Abu'>
+	<link rel='shortcut icon' href='assets/img/favicon.png'>
+	<title>Velcro</title>
+
+
+	<!-- Latest Bootstrap CSS -->
+	<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' integrity='sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==' crossorigin='anonymous'>
+	<!-- CSS Animations -->
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.css' rel='stylesheet'>
+	<!-- Material Design Icons -->
+	<link href='https://fonts.googleapis.com/icon?family=Material+Icons'
+	  rel='stylesheet'>
+	<!-- Roboto Font -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,900,900italic,700italic,700,500italic,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+	<!-- Custom CSS -->
+	<link href='assets/css/style.css' rel='stylesheet'>
+</head>
+<body>
+	<!-- No Javascript Warning -->
+	<noscript>
+		<h1>&#9888; Javascript Is Currently Disabled</h1>
+		<h4>Javascript is currently disabled and needed for this site to function properly.</h4>
+		<h5>Please enable Javascript to continue.</h5>
+	</noscript>
+	<!-- /No Javascript Warning -->
+
+  <!-- Sidebar Menu -->
+  <nav id='sidebar-menu'>
+		<div id='nav-toggle'>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	  <ul class='sidebar-nav'>
+		  <li id='home' class='sidebar-brand page-link'>
+			  <a href='#'>
+			  <img class='logo img-circle' src='assets/img/logo2.gif'>
+				  Velcro
+			  </a>
+		  </li>
+		  <li>
+			  <a href='#' id='navbar' class='page-link'>Navbar</a>
+		  </li>
+		  <li>
+			  <a href='#' id='jumbotron' class='page-link'>Jumbotron</a>
+		  </li>
+		  <li>
+			  <a href='#' id='carousel' class='page-link'>Carousel</a>
+		  </li>
+		  <li>
+			  <a href='#' id='content' class='page-link'>Content</a>
+		  </li>
+		  <li>
+			  <a href='#' id='tabs' class='page-link'>Tabs</a>
+		  </li>
+		  <li>
+			  <a href='#' id='button' class='page-link'>Buttons</a>
+		  </li>
+		  <li>
+			  <a href='#' id='forms' class='page-link'>Forms</a>
+		  </li>
+		  <li>
+			  <a href='#' id='contact' class='page-link'>Contact</a>
+		  </li>
+		  <hr>
+		  <li>
+			  <a href='#' id='resources' class='page-link'>Resources</a>
+		  </li>
+		  <li>
+			  <a href='#' id='help' class='page-link'>Help</a>
+		  </li>
+	  </ul>
+  </nav>
+  <!-- /Sidebar Menu -->
+
+  <!-- Top Tab Notifitcation -->
+  <div id='note-tab'>
+		<p><a href='https://hanniabu.com/#footer'>Creator available for hire</a></p>
+  </div>
+  <!-- /Top Tab Notifitcation -->
+
+  <!-- Get Started Notifications -->
+  <div id='help-box1' class='help-box animated'>
+		<p><span class='glyphicon glyphicon-arrow-left'></span>&nbsp; Click here to begin</p>
+  </div>
+  <div id='help-box2' class='help-box animated'>
+		<p><span class='glyphicon glyphicon-arrow-left'></span>&nbsp; Select a component</p>
+  </div>
+  <div id='help-box3' class='help-box animated'>
+		<p><span class='glyphicon glyphicon-arrow-down'></span>&nbsp; Select your options</p>
+  </div>
+  <!-- /Get Started Notifitcations -->
+
+	<!-- Use On Desktop Notification -->
+	<div id="small-screen-notice" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Notice - Use On Desktop</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>It appears you are accessing this site on mobile or a resized browser screen. This website is meant to be used with larger viewports. Using this site on screens or windows of smaller size may result in adverse effects and an overall worse experience.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- /Use On Desktop Notification -->
+
+
+
+  <!-- Content -->
+  <div id='content-wrapper'>
+
+	<!-- Home Page -->
+	<section id='home-page' class='page hide'>
+		<header class='text-center shadow'>
+			<div>
+				<img class='img-circle animated fadeIn' src='assets/img/logo2.gif'>
+				<h1 class='animated fadeInDown'>Velcro</h1>
+				<h2  class='animated slideInDown'>A Twitter Bootstrap 3.0 Component Generator</h2>
+			</div>
+			<button id='get-started' class='btn btn-default btn-lg animated pulse'><span class='glyphicon glyphicon-th-largee glyphicon-new-window'></span> Get Started</button>
+		</header>
+		<section>
+			<div class='container'>
+				<div class='row features'>
+					<div class='col-md-4 text-center'>
+						<div class="col-md-12 shadow">
+						  <!-- <img src='assets/img/ui-1.svg'> -->
+						  <i class='material-icons'>aspect_ratio</i>
+						  <h3>Simple UI</h3>
+						  <p class='text-muted'>Our interface allows you to easily customize a variety of pre-made Bootstrap components to fit well with your design.</p>
+					  </div>
+					</div>
+					<div class='col-md-4 text-center'>
+						<div class="col-md-12 shadow">
+						  <!-- <img src='assets/img/feedback-1.svg'> -->
+						  <i class='material-icons'>autorenew</i>
+						  <h3>Instant Feedback</h3>
+						  <p class='text-muted'>
+						  Modifying components will be viewable instantly, allowing your creativity to flow seamlessly between thoughts and visuals.</p>
+					  </div>
+					</div>
+					<div class='col-md-4 text-center'>
+						<div class="col-md-12 shadow">
+						  <!-- <img src='assets/img/component-1.svg'> -->
+						  <i class='material-icons'>code</i>
+						  <h3>Isolated Components</h3>
+						  <p class='text-muted'>All components are pure HTML so there's no additional code needed. You can place them in your site and it'll work right out of the box.</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<!-- Navbar Page -->
+	<section id='navbar-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Navbar</h1>
+		</header>
+		<div class='container page-content'>
+			<div class='row'>
+				<!-- Navbar > Preview Section -->
+				<div class='col-md-12 text-center'>
+					<div class='col-md-12 shadow preview'>
+						<h2>Preview</h2>
+						<hr>
+						<!-- Navbar > Preview > View Preview Section -->
+						<div id='navbar-preview' class="well preview">
+							<!-- <div>Preview</div> -->
+
+							<nav class="navbar navbar-defaultt">
+							  <div class="container-fluid">
+								<div class="navbar-header">
+								  <a class="navbar-brand" href="#">Velcro</a>
+								</div>
+								<div>
+								  <ul class="nav navbar-nav">
+									<li class="active"><a href="#">Home</a></li>
+									<li><a href="#">Page 1</a></li>
+								  </ul>
+								</div>
+							  </div>
+							</nav>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- Navbar > Options Section -->
+				<div class='col-md-7 text-center'>
+					<div class='col-md-12 shadow settings'>
+						<h2>Options</h2>
+						<hr>
+						<!-- Navbar > Options > Settings Section -->
+						<!-- Navbar Color -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Navbar Color</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-color-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-color-default" name="navbar-color" value='navbar-default' /> Default
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-color-inverse" name="navbar-color" value="navbar-inverse" /> Inverse
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-color-tranparent" name="navbar-color" value="" /> Transparent
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Navbar Position -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Navbar Position</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-position-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-position-fixed-top" name="navbar-position" value='navbar-fixed-top' /> Fixed Top
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-position-fixed-bottom" name="navbar-position" value="navbar-fixed-bottom" /> Fixed Bottom
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-position-static-top" name="navbar-position" value="navbar-static-top" /> Static Top
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Navbar Branding -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Branding</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-branding-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-branding-none" name="navbar-branding" value='' /> None
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-branding-logo" name="navbar-branding" value="logo" /> Logo
+									</label>
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-branding-text" name="navbar-branding" value='text' /> Text
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-branding-logo-text" name="navbar-branding" value="logo-text" /> Logo/Text
+									</label>
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-brandingtext-logo" name="navbar-branding" value="text-logo" /> Text/Logo
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Navbar Branding Position -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Brand Position</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-brand-position-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-branding-position-left" name="navbar-branding-position" value='navbar-left' /><span class="glyphicon glyphicon-arrow-left"></span>
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-branding-position-right" name="navbar-branding-position" value="navbar-right" /><span class="glyphicon glyphicon-arrow-right"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Navbar Links -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Normal Links</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-link-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-link-yes" name="navbar-link" value='yes' /><span class="glyphicon glyphicon-ok"></span>
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-link-no" name="navbar-link" value="no" /><span class="glyphicon glyphicon-remove"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Navbar Dropdown Links -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Dropdown Links</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-dropdown-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-dropdown-yes" name="navbar-dropdown" value='yes' /><span class="glyphicon glyphicon-ok"></span>
+									</label> 
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-dropdown-no" name="navbar-dropdown" value="no" /><span class="glyphicon glyphicon-remove"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Navbar Link Position -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Link Position</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-link-position-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-link-position-left" name="navbar-link-position" value='navbar-left' /><span class="glyphicon glyphicon-arrow-left"></span>
+									</label> 
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-link-position-right" name="navbar-link-position" value="navbar-right" /><span class="glyphicon glyphicon-arrow-right"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Navbar Search Form -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Search Form</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-search-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-search-yes" name="navbar-search" value='yes' /><span class="glyphicon glyphicon-ok"></span>
+									</label> 
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-search-no" name="navbar-search" value="no" /><span class="glyphicon glyphicon-remove"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Navbar Search Position -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Search Position</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="navbar-search-position-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default">
+									<input type="radio" id="navbar-search-position-left" name="navbar-search-position" value='navbar-left' /><span class="glyphicon glyphicon-arrow-left"></span>
+									</label> 
+									<label class="btn btn-default active">
+									<input type="radio" id="navbar-search-position-right" name="navbar-search-position" value="navbar-right" /><span class="glyphicon glyphicon-arrow-right"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='col-md-5 text-center'>
+					<!-- Navbar > HTML Section -->
+					<div class='col-md-12 shadow html'>
+						<h2>HTML</h2>
+						<hr>
+						<!-- Navbar > HTML > Copy Button Section -->
+						<div class="row">
+							<div class='col-md-12 text-left'>
+								<button id="navbar-html-copy" class="btn btn-default copy-text-btn"><span class="glyphicon glyphicon-duplicate"></span> Copy HTML</button>
+							</div>
+						</div>
+						<br>
+						<!-- Navbar > HTML > HTML Section -->
+						<div class="row">
+							<div class="col-md-12 text-left">
+								<textarea readonly id="navbar-html" class="well code copy-text-area"></textarea>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /html section -->
+			</div> <!-- /row -->
+		</div> <!-- /container & page-content -->
+	</section>
+
+	<!-- Jumbotron Page -->
+	<section id='jumbotron-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Jumbotron</h1>
+		</header>
+	</section>
+
+	<!-- Carousel Page -->
+	<section id='carousel-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Carousel</h1>
+		</header>
+	</section>
+
+	<!-- Content Page -->
+	<section id='content-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Content</h1>
+		</header>
+	</section>
+
+	<!-- Tabs Page -->
+	<section id='tabs-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Tabs</h1>
+		</header>
+	</section>
+
+	<!-- Button Page -->
+	<section id='button-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Buttons</h1>
+		</header>
+		<div class='container page-content'>
+		<div class="row">
+			<div class='col-md-12 text-center hidden-lg hidden-md'>
+					<!-- Buttons > Preview Section -->
+					<div class='col-md-12 shadow preview'>
+						<h2>Preview</h2>
+						<hr>
+						<!-- Buttons > Preview > View Preview Section -->
+						<div id='button-preview' class="well preview">
+								<div>Preview</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='row'>
+				<!-- Buttons > Options Section -->
+				<div class='col-md-7 text-center'>
+					<div class='col-md-12 shadow settings'>
+						<h2>Options</h2>
+						<hr>
+						<!-- Buttons > Options > Settings Section -->
+						<!-- Button Text -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Button Text</p>
+							</div>
+							<div class="col-md-5 text-left">
+								<input id="button-settings-name" name="button-text" type="text" placeholder="Type something..." class="form-control" value="Velcro Is Awesome" />
+							</div>
+						</div>
+						<!-- Button Size -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Button Size</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="button-size-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default">
+										<input type="radio" id="button-size-mini" name="button-size" value="btn-xs" /> Mini
+									</label> 
+									<label class="btn btn-default">
+										<input type="radio" id="button-size-small" name="button-size" value="btn-sm" /> Small
+									</label> 
+									<label class="btn btn-default">
+										<input type="radio" id="button-size-default" name="button-size" value="" /> Default
+									</label> 
+								   <label class="btn btn-default active">
+										<input type="radio" id="button-size-large" name="button-size" value="btn-lg" /> Large
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Button Color -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Button Color</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="button-color-settings" class="btn-group" data-toggle="buttons">
+									  <label class="btn btn-default">
+										<input type="radio" id="button-color-default" name="button-color" value='btn-default' /> Default
+									  </label> 
+									  <label class="btn btn-primary">
+										<input type="radio" id="button-color-primary" name="button-color" value="btn-primary" /> Primary
+									  </label> 
+									  <label class="btn btn-info">
+										<input type="radio" id="button-color-info" name="button-color" value="btn-info" /> Info
+									  </label>
+									  <label class="btn btn-success active">
+										<input type="radio" id="button-color-success" name="button-color" value="btn-success" /> Success
+									  </label>
+									  <label class="btn btn-warning">
+										<input type="radio" id="button-color-warning" name="button-color" value="btn-warning" /> Warning
+									  </label>
+									  <label class="btn btn-danger">
+										<input type="radio" id="button-color-danger" name="button-color" value="btn-danger" /> Danger
+									  </label>
+									</div>
+							</div>
+						</div>
+						<!-- Button Type -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Button Type</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="button-type-settings" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default active">
+									<input type="radio" id="button-type-link" name="button-type" value='link' /> Link
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="button-type-button" name="button-type" value="button" /> Button
+									</label> 
+									<label class="btn btn-default">
+									<input type="radio" id="button-type-input" name="button-type" value="input" /> Input
+									</label> 
+								   <label class="btn btn-default">
+									<input type="radio" id="button-type-submit" name="button-type" value="submit" /> Submit
+									</label>
+								</div>
+							</div>
+						</div>
+						<!-- Button State -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Button State</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="button-state-settings" class="btn-group" data-toggle="buttons">
+									  <label class="btn btn-default active">
+										<input type="radio" id="button-state-none" name="button-state" value="" /> None
+									  </label> 
+									  <label class="btn btn-default">
+										<input type="radio" id="button-state-active" name="button-state" value="active" /> Active
+									  </label> 
+									  <label class="btn btn-default">
+										<input type="radio" id="button-state-disabled" name="button-state" value="disabled" /> Disabled
+									  </label> 
+								</div>
+							</div>
+						</div>
+						<!-- Button Width -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Button Width</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="button-width-settings" class="btn-group" data-toggle="buttons">
+									  <label class="btn btn-default active">
+										<input type="radio" id="button-width-auto" name="button-width" value="" /> Auto
+									  </label>
+									  <label class="btn btn-default">
+										<input type="radio" id="button-width-full" name="button-width" value="btn-block" /> Full Width
+									  </label> 
+								</div>
+							</div>
+						</div>
+						<!-- Button Icon -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Icon</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="button-icon-settings" class="btn-group" data-toggle="buttons">
+									  <label class="btn btn-default active">
+										<span class="glyphicon glyphicon-ok"></span>
+										<input type="radio" id="button-icon-yes" name="button-icon" value="yes" /> 
+									  </label> 
+									  <label class="btn btn-default">
+										<span class="glyphicon glyphicon-remove">
+										<input type="radio" id="button-icon-no" name="button-icon" value="no" /> 
+									  </label> 
+								</div>
+							</div>
+						</div>
+						<!-- Button Icon Position -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Icon Position</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="button-icon-position-settings" class="btn-group" data-toggle="buttons">
+									  <label class="btn btn-default active">
+										<span class="glyphicon glyphicon-arrow-left">
+										<input type="radio" id="button-icon-position-left" name="button-position" value="left" /> 
+									  </label> 
+									  <label class="btn btn-default">
+										<span class="glyphicon glyphicon-arrow-right">
+										<input type="radio" id="button-icon-position-right" name="button-position" value="right" /> 
+									  </label> 
+								</div>
+							</div>
+						</div>
+						<!-- Button Icon Selection -->
+						<div class="row options">
+							<div class="col-md-3 text-left">
+								<p>Select Icon</p>
+							</div>
+							<div class="col-md-9 text-left">
+								<div id="button-glyphicon" class="btn-group" data-toggle="buttons">
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-asterisk"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="asterisk" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-plus"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="plus" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-euro"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="euro" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-minus"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="minus" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="cloud" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-envelope"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="envelope" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-pencil"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="pencil" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-glass"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="glass" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-music"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="music" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="search" /></label>
+									<label class="btn btn-default btn-sm active"><span class="glyphicon glyphicon-heart"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="heart" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-star"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="star" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-star-empty"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="star-empty" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-user"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="user" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-film"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="film" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-large"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="th-large" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="th" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="th-list" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-ok"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="ok" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-remove"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="remove" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-zoom-in"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="zoom-in" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-zoom-out"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="zoom-out" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-off"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="off" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-signal"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="signal" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cog"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="cog" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-trash"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="trash" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-home"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="home" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-file"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="file" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-time"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="time" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-road"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="road" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-download-alt"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="download-alt" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-download"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="download" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-upload"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="upload" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-inbox"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="inbox" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-play-circle"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="play-circle" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-repeat"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="repeat" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-refresh"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="refresh" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-list-alt"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="list-alt" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-lock"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="lock" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-flag"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="flag" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-headphones"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="headphones" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-volume-off"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="volume-off" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-volume-down"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="volume-on" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-volume-up"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="volume-up" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-qrcode"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="qrcode" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-barcode"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="barcode" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-tag"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="tag" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-tags"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="tags" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-book"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="book" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-bookmark"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="bookmark" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-print"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="print" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-camera"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="camera" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-font"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="font" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-bold"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="bold" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-italic"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="italic" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-text-height"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="text-height" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-text-width"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="text-width" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-left"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="align-left" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-center"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="align-center" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-right"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="align-right" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-align-justify"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="align-justify" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-list"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="list" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-indent-left"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="indent-left" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-indent-right"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="indent-right" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-facetime-video"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="facetime-video" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-picture"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="picture" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-map-marker"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="map-marker" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-adjust"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="adjust" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-tint"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="tint" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-edit"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="edit" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="share" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-check"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="check" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-move"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="move" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-step-backward"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="step-backward" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-fast-backward"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="fast-backward" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-backward"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="backward" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-play"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="play" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-pause"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="pause" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-stop"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="stop" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-forward"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="forward" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-fast-forward"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="fast-forward" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-step-forward"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="step-forward" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-eject"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="eject" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-left"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="chevron-left" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-right"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="chevron-right" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-plus-sign"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="plus-sign" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-minus-sign"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="minus-sign" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-remove-sign"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="remove-sign" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-ok-sign"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="ok-sign" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-question-sign"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="question-sign" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-info-sign"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="info-sign" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-screenshot"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="screenshot" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-remove-circle"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="remove-circle" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-ok-circle"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="ok-circle" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-ban-circle"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="ban-circle" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-arrow-left"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="arrow-left" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-arrow-right"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="arrow-right" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-arrow-up"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="arrow-up" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-arrow-down"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="arrow-down" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-share-alt"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="share-alt" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-resize-full"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="resize-full" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-resize-small"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="resize-small" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-exclamation-sign"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="exclamation-sign" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-gift"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="gift" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-leaf"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="leaf" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-fire"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="fire" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-eye-open"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="eye-open" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-eye-close"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="eye-close" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-warning-sign"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="warning-sign" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-plane"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="plane" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-calendar"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="calendar" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-random"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="random" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-comment"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="comment" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-magnet"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="magnet" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-up"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="chevron-up" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-chevron-down"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="chevron-down" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-retweet"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="retweet" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-shopping-cart"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="shopping-cart" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-folder-close"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="folder-close" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-folder-open"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="folder-open" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-resize-vertical"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="resize-vertical" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-resize-horizontal"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="resize-horizontal" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-hdd"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="hdd" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-bullhorn"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="bullhorn" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-bell"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="bell" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-certificate"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="certificate" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-thumbs-up"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="thumbs-up" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-thumbs-down"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="thumbs-down" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-hand-right"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="hand-right" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-hand-left"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="hand-left" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-hand-up"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="hand-up" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-hand-down"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="hand-down" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-circle-arrow-right"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="circle-arrow-right" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-circle-arrow-left"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="circle-arrow-left" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-circle-arrow-up"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="circle-arrow-up" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-circle-arrow-down"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="circle-arrow-down" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-globe"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="globe" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-wrench"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="wrench" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-tasks"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="tasks" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-filter"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="filter" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-briefcase"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="briefcase" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-fullscreen"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="fullscreen" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-dashboard"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="dashboard" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-paperclip"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="paperclip" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-heart-empty"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="heart-empty" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-link"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="link" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-phone"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="phone" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-pushpin"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="pushpin" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-usd"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="usd" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-gbp"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="gbp" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sort"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sort" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sort-by-alphabet"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sort-by-alphabet" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sort-by-alphabet-alt"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sort-by-alphabet-alt" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sort-by-order"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sort-by-order" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sort-by-order-alt"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sort-by-order-alt" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sort-by-attributes"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sort-by-attributes" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sort-by-attributes-alt"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sort-by-attributes-alt" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-unchecked"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="unchecked" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-expand"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="expand" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-collapse-down"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="collapse-down" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-collapse-up"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="collapse-up" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-log-in"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="log-in" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-log-out"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="log-out" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-flash"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="flash" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-new-window"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="new-window" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-record"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="record" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-save"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="save" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-open"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="open" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-saved"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="saved" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-import"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="import" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-export"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="export" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-send"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="send" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-floppy-disk"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="floppy-disk" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-floppy-saved"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="floppy-saved" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-floppy-remove"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="floppy-remove" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-floppy-save"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="floppy-save" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-floppy-open"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="floppy-open" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-credit-card"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="credit-card" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-transfer"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="transfer" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cutlery"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="cutlery" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-header"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="header" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-compressed"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="compressed" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-earphone"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="earphone" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-phone-alt"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="phone-alt" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-tower"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="tower" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-stats"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="stats" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sd-video"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sd-video" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-hd-video"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="hd-video" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-subtitles"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="subtitles" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sound-stereo"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sound-stereo" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sound-dolby"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sound-dolby" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sound-5-1"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sound-5-1" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sound-6-1"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sound-6-1" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-sound-7-1"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="sound-7-1" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-copyright-mark"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="copyright-mark" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-registration-mark"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="registration-mark" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-download"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="cloud-download" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-cloud-upload"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="cloud-upload" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-tree-conifer"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="tree-conifer" /></label>
+									<label class="btn btn-default btn-sm"><span class="glyphicon glyphicon-tree-deciduous"><input type="radio" class="glyphicon-class" name="button-glyphicon" value="tree-deciduous" /></label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class='col-md-5 text-center'>
+					<!-- Buttons > Preview Section -->
+					<div class='col-md-12 shadow preview hidden-sm hidden-xs'>
+						<h2>Preview</h2>
+						<hr>
+						<!-- Buttons > Preview > View Preview Section -->
+						<div id='button-preview2' class="well preview">
+								<div>Preview</div>
+
+						</div>
+					</div>
+					<!-- Buttons > HTML Section -->
+					<div class='col-md-12 shadow html'>
+						<h2>HTML</h2>
+						<hr>
+						<!-- Buttons > HTML > Copy Button Section -->
+						<div class="row">
+							<div class='col-md-12 text-left'>
+								<button id="button-html-copy" class="btn btn-default copy-text-btn"><span class="glyphicon glyphicon-duplicate"></span> Copy HTML</button>
+							</div>
+						</div>
+						<br>
+						<!-- Buttons > HTML > HTML Section -->
+						<div class="row">
+							<div class="col-md-12 text-left">
+								<textarea readonly id="button-html" class="well code copy-text-area"></textarea>
+							</div>
+						</div>
+					</div>
+				</div> <!-- /preview & html sections -->
+			</div> <!-- /row -->
+		</div> <!-- /container & page-content -->
+	</section>  <!-- /button page -->
+
+	<!-- Forms Page -->
+	<section id='forms-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Forms</h1>
+		</header>
+	</section>
+
+	<!-- Contact Page -->
+	<section id='contact-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Contact</h1>
+		</header>
+	</section>
+
+	<!-- Resources Page -->
+	<section id='resources-page' class='page hide text-center'>
+		<header class="text-center page-header shadow">
+			<h1>Resources</h1>
+		</header>
+		<section>
+			<p><a href="http://getbootstrap.com/">Bootstrap Website</a></p>
+			<p><a href="http://getbootstrap.com/getting-started/">Bootstrap CDN</a></p>
+			<p><a href="https://code.jquery.com/">jQuery CDN</a></p>
+			<p><a href="http://glyphicons.bootstrapcheatsheets.com/">Bootstrap Glyphicons and Usage</a></p>
+			<p><a href="http://www.plugolabs.com/twitter-bootstrap-button-generator-3/">Bootstrap Button Generator</a></p>
+			<p><a href="http://getfuelux.com/formbuilder.html">Bootstrap Form Generator</a></p>
+		</section>
+	</section>
+
+
+
+
+  </div>
+
+
+	<!-- jQuery -->
+	<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js' integrity='sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==' crossorigin='anonymous'></script>
+	<!-- Custom Javascript -->
+	<script src='assets/js/log.js'></script>
+	<script src='assets/js/main.js'></script>
+	<script src='assets/js/eventHandlers.js'></script>
+	<script src='assets/js/componentSettings.js'></script>
+	<script src='assets/js/loadNavbarComponent.js'></script>
+	<script src='assets/js/loadButtonComponent.js'></script>
+	<script src='assets/js/copyTextArea.js'></script>
+</body>
+</html>
