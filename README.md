@@ -1,5 +1,4 @@
 #__Velcro__
----
 #### _A Twitter Bootstap 3.0 Component Generator_
 ###### To use, vist: https://github.com/HanniAbu/Velcro
 
