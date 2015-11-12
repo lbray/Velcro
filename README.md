@@ -12,7 +12,6 @@ This is a designer tool I created to help speed up development. This tool allows
 * Navbar
 * Buttons
 * More to come...
-<br>
 
 
 <br>
@@ -38,4 +37,5 @@ This is a designer tool I created to help speed up development. This tool allows
 <br>
 ## License
 GNU GPL License
+
 GPL © 2015 Hanni Abu
