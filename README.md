@@ -1,4 +1,4 @@
-#__Velcro__
+#__Velcro__ ![alt text](https://raw.githubusercontent.com/HanniAbu/Velcro/gh-pages/assets/img/favicon.png "Velcro Logo")
 #### _A Twitter Bootstap 3.0 Component Generator_
 ###### To use, vist: https://github.com/HanniAbu/Velcro
 
