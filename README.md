@@ -3,7 +3,7 @@
 #### _A Twitter Bootstap 3.0 Component Generator_
 ###### To use, vist: https://github.com/HanniAbu/Velcro
 
-<br>
+
 This is a designer tool I created to help speed up development. This tool allows you to easily generate barebones HTML Bootstrap 3 components by selecting the settings you need. As you make changes, the preview and corresponding HTML is updated automatically. 
 
 
